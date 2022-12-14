@@ -1,0 +1,6 @@
+scikit-learn
+flask
+pydantic
+pandas
+bentoml>=1.0.0
+Pillow

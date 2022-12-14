@@ -1,0 +1,11 @@
+service: "service.py"
+include:
+- "service.py"
+- "bentoml_extensions/"
+- "*.py"
+python:
+  packages:
+    - scikit-learn
+    - pandas
+    - flask
+    - pillow
